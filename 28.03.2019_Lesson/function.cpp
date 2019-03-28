@@ -7,9 +7,8 @@ void body::print() {
 	cout << width << " " << height << " " << color << " ";
 }
 void car::print() {
-	cout << model << endl;
+	cout << model << " ";
 	car_engine.print();
-	cout << endl;
 	car_body.print();
 	cout << endl;
 }
