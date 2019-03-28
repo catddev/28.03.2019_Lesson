@@ -57,7 +57,7 @@ int main()
 			}
 
 			// << cur_size << endl;
-			for (int i = 0; i < cur_size-1; i++) //в функции add постдекремент сur_size++, поэтому здесь надо его уменьшить на 1
+			for (int i = 0; i < cur_size-1; i++) //в функции add постинкремент сur_size++, поэтому здесь надо его уменьшить на 1
 				cs[i].print();
 			cout << endl << endl;
 
