@@ -1,6 +1,6 @@
-#include"function.h"
+п»ї#include"function.h"
 
-void engine::print() {// :: какой структуры хотим реализовать функцию
+void engine::print() {// :: РєР°РєРѕР№ СЃС‚СЂСѓРєС‚СѓСЂС‹ С…РѕС‚РёРј СЂРµР°Р»РёР·РѕРІР°С‚СЊ С„СѓРЅРєС†РёСЋ
 	cout << volume << " " << horse_power << " ";
 }
 void body::print() {
